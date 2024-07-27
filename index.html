@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>33. Form in HTML 55 Part 06</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset> 
+            <legend> Registration Form</legend>
+            First Name:  <br><br>
+        <!-- <input type="text" name="firstname" placeholder="firstname"> -->
+        <input type="text" name="firstname" value="first name">  <br><br>
+        Last Name:  <br><br>
+        <input type="text" name="lastname" value="last name"> <br><br>
+
+        Email:
+        <input type="email"> <br><br>
+
+        Password:
+        <input type="password"> <br><br>
+        
+        Gender:
+        <!-- <input type="radio">Male
+        <input type="radio">Female -->
+
+        <!-- <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Female -->
+
+         <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+        <input type="radio" name="gender" value="male" checked="">Male
+        <input type="radio" name="gender" value="male">Female <br><br>
+
+        <!-- Select Tag For Like Country Select -->
+         Country:
+        <select name="country">
+            <option>Bangladesh</option>
+            <option>India</option>
+            <!-- <option>USA</option> -->
+            <option selected>USA</option>
+            <option>Englad</option>
+            <option>France</option>
+            <option>Japan</option>
+        </select> <br><br>
+
+        Birthdate:
+        <input type="date">
+        <!-- Birthdate:
+        <input type="date" min="2023-01-01" max="2024-31-12">  -->
+        <br><br> 
+        <!-- Age:
+        <input type="number"> -->
+        Age:
+        <input type="number" min="18" max="75"> <br><br>
+
+        Favourite Color:
+       <input type="color"> <br><br>
+       
+       Upload CV:
+       <input type="file">  <br><br>
+
+       Write Something:
+       <textarea rows="5" cols="50"> Enter Your Details</textarea>
+
+        <br><br>
+        <input type="submit"> 
+        <input type="Reset">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
